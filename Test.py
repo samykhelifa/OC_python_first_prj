@@ -14,11 +14,13 @@ characters = [
     "le chat potté",
     "Kirikou"
 ]
-def get_random_quote():
+def get_random_quote(my_list):
     # get a random number
     # get a quote from an array
     # show the quote in the interpreter
-    pass
+    rquote = my_list[0]
+    print(rquote)
+    # pass
 user_answer = input('Tapez entrée pour découvrir une autre citation ou B pour quitter le programme.')
 if user_answer == "B":
     pass
@@ -28,3 +30,4 @@ else:
     # show another quote
     pass
 
+get_random_quote(quotes)
