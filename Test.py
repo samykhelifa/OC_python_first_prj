@@ -1,3 +1,3 @@
 quotes=["jkh","a","yu","ze"]
 for q in quotes:
-    print(capitalize(q))
+    print(q.capitalize())
