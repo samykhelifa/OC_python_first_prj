@@ -28,8 +28,5 @@ def get_random_quote(my_list):
     # pass
 user_answer = input('Tapez entrée pour découvrir une autre citation ou B pour quitter le programme.')
 while user_answer != "B":
-    print("not B !!")
-    print(type(user_answer))
-    user_answer = input('Tapez entrée pour découvrir une autre citation ou B pour quitter le programme.')
-
-get_random_quote(quotes)
+    print(message(get_random_item_in(characters), get_random_item_in(quotes)))
+    user_answer = input('Tapez entrée pour connaître une autre citation ou B pour quitter le programme.')
