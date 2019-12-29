@@ -22,12 +22,8 @@ def get_random_quote(my_list):
     print(rquote)
     # pass
 user_answer = input('Tapez entrée pour découvrir une autre citation ou B pour quitter le programme.')
-if user_answer == "B":
-    pass
-elif user_answer == "C":
-    print("C pas la bonne réponse ! Et G pas d’humour, je C...")
-else:
-    # show another quote
-    pass
+while user_answer != "B":
+    print("not B !!")
+    user_answer = input('Tapez entrée pour découvrir une autre citation ou B pour quitter le programme.')
 
 get_random_quote(quotes)
