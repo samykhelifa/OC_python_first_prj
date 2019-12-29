@@ -14,6 +14,11 @@ characters = [
     "le chat potté",
     "Kirikou"
 ]
+def message(character, quote):
+    n_character = character.capitalize()
+    n_quote = quote.capitalize()
+    return "{} a dit : {}".format(n_character, n_quote)
+
 def get_random_quote(my_list):
     # get a random number
     # get a quote from an array
