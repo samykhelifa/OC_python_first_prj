@@ -19,13 +19,7 @@ def message(character, quote):
     n_quote = quote.capitalize()
     return "{} a dit : {}".format(n_character, n_quote)
 
-def get_random_quote(my_list):
-    # get a random number
-    # get a quote from an array
-    # show the quote in the interpreter
-    rquote = my_list[0]
-    print(rquote)
-    # pass
+
 user_answer = input('Tapez entrée pour découvrir une autre citation ou B pour quitter le programme.')
 while user_answer != "B":
     print(message(get_random_item_in(characters), get_random_item_in(quotes)))
